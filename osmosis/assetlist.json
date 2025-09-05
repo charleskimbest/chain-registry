@@ -18429,7 +18429,8 @@
       ]
     },
     {
-      "description": "Rakoff Token is the Meme Token for Terra Classic",
+      "description": "Juris Protocol is the premier lending platform for the Terra Ecosystem, delivering decentralized lending and borrowing markets to enhance financial accessibility and utility.", 
+      "extended_description": "Juris Protocol is a sophisticated DeFi platform built on Terra Classic, leveraging CosmWasm smart contracts to provide secure, transparent lending and borrowing solutions. Designed to empower users, it supports assets like USTC and LUNC, driving yield opportunities and ecosystem growth. Terra Classic, originally engineered for algorithmic stablecoins, uses LUNC to stabilize its financial infrastructure. Juris Protocol advances this vision with audited contracts, KYC-verified governance, and an IBC bridge for seamless Cosmos integration, ensuring a robust, user-focused DeFi experience.",
       "denom_units": [
         {
           "denom": "ibc/46579C587A0B8CF8B0A1FF6B0EFA2082F11876578E47FC81A9CAAD31F424AF98",
@@ -18448,6 +18449,11 @@
       "name": "Juris Protocol",
       "display": "rakoff",
       "symbol": "JURIS",
+      "coingecko_id": "juris-protocol",
+      "socials": {
+        "website": "https://jurisprotocol.com/",
+        "twitter": "https://x.com/jurisprotocol"
+      },
       "traces": [
         {
           "type": "ibc-cw20",
@@ -27493,6 +27499,121 @@
       "images": [
         {
           "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/usd.svg"
+        }
+      ]
+    },
+    {
+      "description": "Community-secured Meme token on Osmosis",
+      "denom_units": [
+        {
+          "denom": "factory/osmo1are7fpe5l6jzm9sjn7u4qkq6q77wwrrsxzlyw8lcegmmaxdukvuq4h46dx/LABS",
+          "exponent": 0
+        },
+        {
+          "denom": "LABS",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "sdk.coin",
+      "base": "factory/osmo1are7fpe5l6jzm9sjn7u4qkq6q77wwrrsxzlyw8lcegmmaxdukvuq4h46dx/LABS",
+      "name": "Labrador",
+      "display": "LABS",
+      "symbol": "LABS",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/LABS.png"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/LABS.png"
+        }
+      ],
+      "keywords": [
+        "meme"
+      ],
+      "socials": {
+        "website": "https://daodao.zone/dao/osmo10hgl747acm8h648xv9qrxkv3vyvv266yffs4aka7qjcr0659lnqs4ypu7v"
+      }
+    },
+    {
+      "description": "Quark ($QUARK) is an Osmosis token launched on the Cosmos Hub.",
+      "denom_units": [
+        {
+          "denom": "factory/osmo1x7s7a2erqspkm6e79n7yh7fw3yh7xx4lt54mxg/uquark",
+          "exponent": 0
+        },
+        {
+          "denom": "QUARK",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "sdk.coin",
+      "base": "factory/osmo1x7s7a2erqspkm6e79n7yh7fw3yh7xx4lt54mxg/uquark",
+      "name": "Quark",
+      "display": "QUARK",
+      "symbol": "QUARK",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.svg"
+      },
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/quark.svg"
+        }
+      ],
+      "keywords": [
+        "meme"
+      ],
+      "socials": {
+        "twitter": "https://x.com/quark_on_cosmos"
+      }
+    },
+    {
+      "description": "The native token of Intento.",
+      "denom_units": [
+        {
+          "denom": "ibc/BE072C03DA544CF282499418E7BC64D38614879B3EE95F9AD91E6C37267D4836",
+          "exponent": 0,
+          "aliases": [
+            "uinto"
+          ]
+        },
+        {
+          "denom": "into",
+          "exponent": 6
+        }
+      ],
+      "type_asset": "ics20",
+      "base": "ibc/BE072C03DA544CF282499418E7BC64D38614879B3EE95F9AD91E6C37267D4836",
+      "name": "Intento",
+      "display": "into",
+      "symbol": "INTO",
+      "traces": [
+        {
+          "type": "ibc",
+          "counterparty": {
+            "chain_name": "intento",
+            "base_denom": "uinto",
+            "channel_id": "channel-3"
+          },
+          "chain": {
+            "channel_id": "channel-106076",
+            "path": "transfer/channel-106076/uinto"
+          }
+        }
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.svg"
+      },
+      "images": [
+        {
+          "image_sync": {
+            "chain_name": "intento",
+            "base_denom": "uinto"
+          },
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/intento/images/into.svg"
         }
       ]
     }
