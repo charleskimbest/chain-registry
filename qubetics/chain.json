@@ -58,7 +58,8 @@
     "ibc": {
       "type": "go",
       "version": "v7.6.0"
-    }
+    },
+    "tag": "v1.0.0"
   },
   "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/qubetics/images/qubetics.png"
@@ -163,7 +164,7 @@
       {
         "address": "https://rest.qubenode.space",
         "provider": "Qubenode"
-      },  
+      },
       {
         "address": "https://rest.qubeticstralbo.eu",
         "provider": "TicsForge-Node"

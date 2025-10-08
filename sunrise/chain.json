@@ -89,6 +89,10 @@
         "provider": "Sunrise Team"
       },
       {
+        "address": "https://rpc-sunrise.infrasingularity.com",
+        "provider": "Infrasingularity"
+      },
+      {
         "address": "https://sunrise-mainnet-rpc.mekonglabs.tech",
         "provider": "MekongLabs"
       },
@@ -135,6 +139,18 @@
       {
         "address": "https://sunrise-rpc.stakeandrelax.net",
         "provider": "Stake&Relax 🦥"
+      },
+      {
+        "address": "https://sunrise.blocksync.me/rpc",
+        "provider": "BlockSync"
+      },
+      {
+        "address": "https://rpc-sunrise.winnode.xyz",
+        "provider": "Winnode"
+      },
+      {
+        "address": "https://rpc-sunrise.blockval.io/",
+        "provider": "Blockval"
       }
     ],
     "rest": [
@@ -175,7 +191,7 @@
         "provider": "deNodes"
       },
       {
-      "address": "https://sunrise.api.decentrio.ventures",
+        "address": "https://sunrise.api.decentrio.ventures",
         "provider": "Decentrio"
       },
       {
@@ -189,6 +205,18 @@
       {
         "address": "https://sunrise-api.stakeandrelax.net",
         "provider": "Stake&Relax 🦥"
+      },
+      {
+        "address": "https://sunrise.blocksync.me/api",
+        "provider": "BlockSync"
+      },
+      {
+        "address": "https://api-sunrise.winnode.xyz",
+        "provider": "Winnode"
+      },
+      {
+        "address": "https://api-sunrise.blockval.io",
+        "provider": "Blockval"
       }
     ],
     "grpc": [
@@ -227,6 +255,18 @@
       {
         "address": "http://sunrise-grpc.stakeandrelax.net:28390",
         "provider": "Stake&Relax 🦥"
+      },
+      {
+        "address": "http://sunrise.blocksync.me:22090",
+        "provider": "BlockSync"
+      },
+      {
+        "address": "https://grpc-sunrise.winnode.xyz:443",
+        "provider": "Winnode"
+      },
+      {
+        "address": "grpc-sunrise.blockval.io:443",
+        "provider": "Blockval"
       }
     ]
   },
@@ -289,6 +329,18 @@
       "url": "https://explorer.stakeandrelax.net/sunrise",
       "tx_page": "https://explorer.stakeandrelax.net/sunrise/tx/${txHash}",
       "account_page": "https://explorer.stakeandrelax.net/sunrise/account/${accountAddress}"
+    },
+    {
+      "kind": "BlockSync Explorer",
+      "url": "https://dashboard.blocksync.me/sunrise",
+      "tx_page": "https://dashboard.blocksync.me/sunrise/tx/${txHash}",
+      "account_page": "https://dashboard.blocksync.me/sunrise/account/${accountAddress}"
+    },
+    {
+      "kind": "Winnode explorer",
+      "url": "https://explorer.winnode.xyz/Sunrise-Mainnet",
+      "tx_page": "https://explorer.winnode.xyz/Sunrise-Mainnet/tx/${txHash}",
+      "account_page": "https://explorer.winnode.xyz/Sunrise-Mainnet/account/${accountAddress}"
     }
   ],
   "images": [
